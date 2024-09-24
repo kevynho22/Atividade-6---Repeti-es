@@ -2,15 +2,16 @@ programa
 {
 	
 	funcao inicio()
-	{ 
+	{
+ 
     inteiro i
     real numero, maior
    
-    maior = -999999 
+    maior = 0
  
     para (i = 1; i <= 5; i++)
     {
-        escreva("Digite o seu ", i, "º número: ")
+        escreva("Digite o seu ", i, " número: ")
         leia(numero)
 
         se (numero > maior) 
